@@ -4,15 +4,15 @@
 <dict>
 	<key>timerInterval</key>
 	<string>60</string>
-	<key>updating</key>
-	<true/>
 	<key>enabled</key>
 	<true/>
+	<key>idleCheckEnabled</key>
+	<false/>
+	<key>idleTime</key>
+	<integer>30</integer>
 	<key>executeOnStartup</key>
 	<false/>
-	<key>startOnSystemStartup</key>
-	<false/>
 	<key>requiredSignalStrength</key>
-	<integer>-20</integer>
+	<integer>1</integer>
 </dict>
 </plist>
